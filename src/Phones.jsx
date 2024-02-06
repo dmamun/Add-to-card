@@ -32,7 +32,7 @@ const Phones = () => {
 
   }
   return (
-    <div>
+    <div className="text-xl ml-16">
       <input 
       type="text" 
       placeholder="Search"

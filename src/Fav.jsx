@@ -30,9 +30,9 @@ const Fav = () => {
   return (
     <div>
        {
-            favorities.length>0 && <button className="btn btn-active btn-neutral flex justify-center" onClick={handleRemove}>delete All</button>
+            favorities.length>0 && <button className="btn btn-link text-xl mx-auto flex items-center justify-center h-full" onClick={handleRemove}>delete All</button>
         }
-        <h1>Total Amount:{totalPrice}$</h1>
+        <h1 className="text-xl mx-auto flex items-center justify-center h-full">Total Amount:{totalPrice}$</h1>
        <div className="grid grid-cols-2 gap-5">
        
       {favorities.map((item) => (
