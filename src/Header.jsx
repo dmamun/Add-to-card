@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-
 const Header = () => {
   return (
     <div>
@@ -43,6 +42,7 @@ const Header = () => {
                 Login
               </NavLink>
             </li>
+            
           </ul>
         </div>
         <div className="navbar-end">
